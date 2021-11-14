@@ -326,7 +326,6 @@ footer ul li a:hover {
     color: #000000;
 }
 
-
 .portfolio {
     background-color: #FFF;
     padding: 96px 24px;
@@ -405,6 +404,267 @@ footer ul li a:hover {
     margin: 16px auto 32px auto;
 }
 
-.contact button {
+@media only screen and (max-width: 768px) {
+    .hero-text {
+        margin: 96px 0;
+    }
 
+    .skills-list {
+        display: grid;
+        grid-gap: 16px;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .skills-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+
+      .item2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+      }
+}
+
+@media only screen and (max-width: 699px) {
+    nav {
+        vertical-align: top;
+        width: 100%;
+        overflow: auto;
+        margin-top: 40px;
+    }
+    
+    nav p {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        text-align: left;
+    }
+    
+    nav ul {
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: left;
+        margin-top: 32px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        text-align: center;
+        display: inline-block;
+        margin-right: 6%;
+        margin-left: 0;
+    }
+
+    header button {
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+
+    .hero-text {
+        margin: 64px 0;
+    }    
+    
+    .hero-text p {   
+        max-width: 900px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .about {
+        margin: 64px 24px;
+        position: relative;
+    }
+    
+    .about .container {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        position: relative;
+        display: block;
+    }
+    
+    .about img {
+        float: none;
+        display: block;
+        max-width: 300px;
+        width: 50%;
+        margin-bottom: 32px;
+    }
+    
+    .about .about-text {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .about-text h2 {
+        margin-bottom: 16px;
+    }
+    
+    .about-text p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .skills {
+        padding: 64px 24px;
+    }
+
+    .portfolio {
+        background-color: #FFF;
+        padding: 64px 24px 24px 24px;
+    }
+    
+    .portfolio .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .portfolio h2 {
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    
+    .portfolio-list {
+        display: block;
+
+    }
+    
+    .portfolio-item {
+        margin: 48px 0;
+        width: 100%;
+        text-align: left;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    .portfolio-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+    
+    .portfolio-item p {
+        margin: 4px 0 8px 0;
+    }
+    
+    .portfolio-item a {
+        color: #0582CA;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 32px;
+        transition: 0.3s;
+    }
+
+    .contact {
+        background-color: #003554;
+        padding: 64px 24px;
+    }
+
+    footer p {
+        width: 100%;
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    footer ul {
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 32px;
+    }
+
+    footer ul li {
+        display: inline-block;
+        margin: 0 3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about {
+        margin: 64px 24px;
+        position: relative;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .skills {
+        padding: 64px 24px 24px 24px;
+    }
+
+    .portfolio {
+        background-color: #FFF;
+        padding: 64px 24px 24px 24px;
+    }
+
+    .contact {
+        padding: 64px 24px;
+    }
+
+    .about img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    nav p {
+        text-align: center;
+    }
+    
+    nav ul {
+        text-align: center;
+        margin-top: 32px;
+    }
+    
+    nav ul li {
+        text-align: center;
+        margin: 0 3%;
+    }
+
+    .skills-list {
+        display: block;
+    }
+
+    .skills-item {
+        margin: 48px 0;
+        width: 100%;
+    }
+
+    footer p {
+        width: 100%;
+        display: block;
+    }
+    
+    footer ul {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    footer ul li {
+        display: block;
+        text-align: center;
+        margin: 24px 0;
+    }
 }
